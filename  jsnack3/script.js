@@ -5,19 +5,21 @@
  Esegui questo programma in due versioni, con il for e con il while (facoltativo)
 */
 
-const number = [];
 
 const request_limit = 5;
 
-let = somma_numeri;
+let somma_numeri = 0;
 
 for (let x = 0; x < request_limit; x++){
-  number = prompt("Inserisci un numero");
 
-  somma_numeri = number.length;
+  let user_input = parseInt(prompt("Inserisci un numero"));
+  console.log(user_input);
+
+  somma_numeri += user_input;
 
 }
 
+console.log(somma_numeri);
 
 
 
