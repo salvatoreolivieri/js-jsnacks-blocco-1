@@ -10,16 +10,33 @@ const request_limit = 5;
 
 let somma_numeri = 0;
 
-for (let x = 0; x < request_limit; x++){
+// soluzione con for
+// for (let x = 0; x < request_limit; x++){
+
+//   let user_input = parseInt(prompt("Inserisci un numero"));
+//   console.log(user_input);
+
+//   somma_numeri += user_input;
+
+// }
+
+// console.log(somma_numeri);
+
+
+
+// soluzione con while
+
+let x = 0;
+
+
+while (x < request_limit){
 
   let user_input = parseInt(prompt("Inserisci un numero"));
   console.log(user_input);
 
   somma_numeri += user_input;
 
+  x++
 }
 
 console.log(somma_numeri);
-
-
-
