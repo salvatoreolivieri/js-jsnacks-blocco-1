@@ -1,3 +1,7 @@
+/*
+ JSnack 1
+ L’utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore
+*/
 
 const number1 = prompt("Inserisci un numero a scelta");
 console.log("Primo numero selezionato: ", number1);
